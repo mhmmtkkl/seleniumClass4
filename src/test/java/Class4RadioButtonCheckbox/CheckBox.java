@@ -28,7 +28,7 @@ public class CheckBox {
 		inputElement.sendKeys("teddy bear");
 		
 		WebElement SearchButton = driver.findElement(By.xpath("//button[@aria-label='Search']"));
-		
+		 
 //		clicking on search button
 		SearchButton.click();
 		

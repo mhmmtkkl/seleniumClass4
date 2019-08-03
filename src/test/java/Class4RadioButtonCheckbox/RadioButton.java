@@ -29,7 +29,7 @@ public class RadioButton {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		WebElement inputElement = driver.findElement(By.xpath("//input[contains(@id,'search')]"));
-		
+		 
 //		searching teddy bear
 		inputElement.sendKeys("teddy bear");
 		
