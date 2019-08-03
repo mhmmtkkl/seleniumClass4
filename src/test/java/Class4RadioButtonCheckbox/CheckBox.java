@@ -11,7 +11,7 @@ public class CheckBox {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium dependency\\drivers\\chromedriver.exe");
-		
+		  
 		WebDriver driver;
 		
 		driver = new ChromeDriver();
